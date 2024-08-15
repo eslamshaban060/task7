@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task7</title>
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+    <!-- font awsom fille -->
+     <link rel="stylesheet" href="css/all.css">
+    <!-- botstrap fille -->
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- css link fille -->
+     <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- header-start -->
+     <header class="position-fixed ">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary w-100">
+            <nav class="navbar navbar-white bg-white fixed-top">
+                <div class="container">
+                    <a class="navbar-brand" href=""><img src="imges/1.png" alt="" width="200px" ></a>
+                    <div  class="d-lg-none ms-auto" >
+                        <div class="bg-primary-border-subtle pt-1 ps-2 header-icon rounded-5 me-3 text-center"> 
+                                <a data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="text-dark"><i class="fas fa-shopping-basket fs-4 mt-2 me-2 "></i></a>
+                          </div>
+                        <div class="bg-warning  header-icon2 rounded-5 me-3 text-center position-absolute  numofprofuct">
+                            0
+                          </div>
+                    </div>
+                    
+                  <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end text-bg-white" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">              <a class="navbar-brand" href="#"><img src="imges/1.png" alt="" width="200px" ></a></h5>
+                      <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+                            <li class="nav-item">
+                              <a class="nav-link active me-3 fw-bold" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link active me-3 fw-bold" aria-current="page" href="#">Pages</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link active me-3 fw-bold" aria-current="page" href="#">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link active me-3 fw-bold" aria-current="page" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link active me-3 fw-bold" aria-current="page" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link active me-3 fw-bold" aria-current="page" href="#">Shop</a>
+                            </li>
+          
+                        </ul>
+                        <div class="d-none d-lg-inline">
+                              <div class="bg-primary-border-subtle pt-1 ps-2 header-icon rounded-5 me-3 text-center">
+                                  <a data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="text-dark"><i class="fas fa-shopping-basket fs-4 mt-2 me-2 "></i></a>
+              
+                                </div>
+                                <div class="bg-warning  header-icon2 rounded-5 me-3 text-center position-absolute  numofprofuct1">
+                                  0
+                                </div>
+                        </div>
+                      <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-warning" type="submit">Search</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+          </nav>
+     </header>
+     <!-- header-end -->
+    <!-- main=start -->
+     <main class="main1">
+        <h2 class=" text-center text-white display-1 position-absolute fw-bold d-block">
+           Our Products
+        </h2>
+     </main>
+    <!-- main-end -->
+    <!-- product section start  -->
+    <section class="product ">
+        <div class="container text-primary pb-5">
+            <div class="row pt-5">
+                <div price="12" class="product-card col-11 mx-auto col-xl-3 col-lg-4 col-md-6 mt-5">
+                    <div class="card mx-auto " style="width: 18rem;">
+                        <img src="imges/3 (1).png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                          
+                          <h4 class="card-text">Crop , Organic</h4>
+                          <h5 class="card-title protitle fw-bold">Organic Sweet Corn</h5>
+                          <h5 class="card-title pricesp fw-bold text-success">$12.00</h5>
+                          <a  class="btn btn-outline-warning text-dark"><i class="fas fa-shopping-basket"></i>
+                            Add to cart</a>
+                        </div>
+                      </div>
+                </div>
+                <div price="25" class="product-card col-11 mx-auto col-xl-3 col-lg-4 col-md-6 mt-5">
+                    <div class="card mx-auto " style="width: 18rem;">
+                        <img src="imges/3 (2).png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                          
+                          <h4 class="card-text">Crop , Organic</h4>
+                          <h5 class="card-title protitle fw-bold">Fresh Fish</h5>
+                          <h5 class="card-title pricesp fw-bold text-success">$25.00</h5>
+                          <a  class="btn btn-outline-warning text-dark"><i class="fas fa-shopping-basket"></i>
+                            Add to cart</a>
+                        </div>
+                      </div>
+                </div>
+                <div price="18" class="product-card col-11 mx-auto col-xl-3 col-lg-4 col-md-6 mt-5">
+                    <div class="card mx-auto " style="width: 18rem;">
+                        <img src="imges/3 (3).png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                          
+                          <h4 class="card-text">Crop , Organic</h4>
+                          <h5 class="card-title protitle  fw-bold">Fresh Bananah</h5>
+                          <h5 class="card-title pricesp fw-bold text-success">$18.00</h5>
+                          <a  class="btn btn-outline-warning text-dark"><i class="fas fa-shopping-basket"></i>
+                            Add to cart</a>
+                        </div>
+                      </div>
+                </div>
+                <div price="22" class="product-card col-11 mx-auto col-xl-3 col-lg-4 col-md-6 mt-5">
+                    <div class="card mx-auto " style="width: 18rem;">
+                        <img src="imges/3 (5).png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                          
+                          <h4 class="card-text">Crop , Organic</h4>
+                          <h5 class="card-title protitle fw-bold">Green Avocado</h5>
+                          <h5 class="card-title pricesp fw-bold text-success">$22.00</h5>
+                          <a  class="btn btn-outline-warning text-dark"><i class="fas fa-shopping-basket"></i>
+                            Add to cart</a>
+                        </div>
+                      </div>
+                </div>
+                <div price="19" class="product-card col-11 mx-auto col-xl-3 col-lg-4 col-md-6 mt-5">
+                    <div class="card mx-auto " style="width: 18rem;">
+                        <img src="imges/3 (4).png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                          
+                          <h4 class="card-text">Crop , Organic</h4>
+                          <h5 class="card-title protitle fw-bold">Organic Cucumber</h5>
+                          <h5 class="card-title pricesp fw-bold text-success">$19.00</h5>
+                          <a class="btn btn-outline-warning text-dark"><i class="fas fa-shopping-basket"></i>
+                            Add to cart</a>
+                        </div>
+                      </div>
+                </div>
+                <div price="12" class="product-card col-11 mx-auto col-xl-3 col-lg-4 col-md-6 mt-5">
+                    <div class="card mx-auto " style="width: 18rem;">
+                        <img src="imges/3 (6).png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                          
+                          <h4 class="card-text">Crop , Organic</h4>
+                          <h5 class="card-title protitle fw-bold">Strawberry</h5>
+                          <h5 class="card-title pricesp fw-bold text-success">$12.00</h5>
+                          <a  class="btn btn-outline-warning text-dark"><i class="fas fa-shopping-basket"></i>
+                            Add to cart</a>
+                        </div>
+                      </div>
+                </div>
+                <div price="7" class="product-card col-11 mx-auto col-xl-3 col-lg-4 col-md-6 mt-5">
+                    <div class="card mx-auto " style="width: 18rem;">
+                        <img src="imges/3 (7).png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                          
+                          <h4 class="card-text">Crop , Organic</h4>
+                          <h5 class="card-title protitle fw-bold">Organic Carrot</h5>
+                          <h5 class="card-title pricesp fw-bold text-success">$7.00</h5>
+                          <a  class="btn btn-outline-warning text-dark"><i class="fas fa-shopping-basket"></i>
+                            Add to cart</a>
+                        </div>
+                      </div>
+                </div>
+                <div price="32" class="product-card col-11 mx-auto col-xl-3 col-lg-4 col-md-6 mt-5">
+                    <div class="card mx-auto " style="width: 18rem;">
+                        <img src="imges/3 (8).png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                          
+                          <h4 class="card-text">Crop , Organic</h4>
+                          <h5 class="card-title protitle fw-bold">Fresh Red Seedless</h5>
+                          <h5 class="card-title pricesp fw-bold text-success">$32.00</h5>
+                          <a  class="btn btn-outline-warning text-dark"><i class="fas fa-shopping-basket"></i>
+                            Add to cart</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <nav aria-label="Page navigation example " class=" mt-4    page-btn ">
+                <ul class="pagination text-center mx-auto ms-auto ">
+                  <li class="page-item"><a class="page-link text-success" href="">Previous</a></li>
+                  <li class="page-item"><a class="page-link text-success" href="">1</a></li>
+                  <li class="page-item"><a class="page-link text-success" href="">2</a></li>
+                  <li class="page-item"><a class="page-link text-success" href="">3</a></li>
+                  <li class="page-item"><a class="page-link text-success" href="">Next</a></li>
+                </ul>
+              </nav>
+        </div>
+    </section>
+    <!-- ===================================== -->
+  
+  <!-- Modal -->
+  <div class="modal fade w-100" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="1000000" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+         <div class="modal-header">
+            <h2>
+                Your cart
+            </h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body conriner">
+          <div class="row ">
+            <div class="productimges col-lg-2 col-3 ">
+
+            </div>
+            <div class="producttitlee box-card col-6">
+
+            </div>
+            <div class="productprice box-card col-3 ">
+
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class=" ps-0 d-flex">
+           
+            <button class=" btn btn-outline-warning text-dark m-3 "  id="totalprice">
+              Total Price
+           </button>
+           <div class="thetotal m-4">
+
+           </div>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- product section end  -->
+    <!-- footer start -->
+     <footer class=" " id="footer" >
+        <div class="container d-flex justify-content-between">
+            <img src="imges/5.png" alt="" height="250px " class="mt-auto d-none d-lg-block">
+            <img src="imges/6.png" alt="" width="280px" height="100px" class="my-lg-auto d-block mx-auto mt-5">
+            <img src="imges/5.png" alt="" height="250px " class="mt-auto   d-none d-lg-block">
+        </div>
+        <p class="container text-center mt-3 mt-lg-0 text-white px-4">
+            © Copyright 2024. All Rights Reserved by <span class="text-warning"> Eslam Shaban</span>
+        </p>
+     </footer>
+     <!-- footer end -->
+
+    <!-- botstrap js fille -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- js fille -->
+    <script src="js/script.js"></script>
+</body>
+</html>
